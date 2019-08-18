@@ -56,6 +56,10 @@ exports.fileDict = [
 	[
 		'https://upload.wikimedia.org/wikipedia/commons/5/53/Birds_Polyphonic.ogg',
 		'Birds_Polyphonic.ogg'
+	],
+	[
+		'dat://18feb7b306912fccd726b42fb71e9d79c0d08036bbb7f5223eb672e05d211da3+preview//test.m4a',
+		'test.m4a'
 	]
 ]
 

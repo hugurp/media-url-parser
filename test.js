@@ -71,3 +71,12 @@ test('Soundcloud URL correctly parse the id', t => {
 		testUrl(t, item, 'soundcloud')
 	})
 })
+
+test('Dat URL is parsed correctly', t => {
+	let url = 'dat://18feb7b306912fccd726b42fb71e9d79c0d08036bbb7f5223eb672e05d211da3+preview//test.m4a'
+	let r = mediaUrlParser(url)
+	t.is(r.provider, 'file')
+	t.is(r.id, 'test.m4a')
+	t.is(r.url, url)
+})
+
